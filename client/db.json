@@ -1,0 +1,162 @@
+[
+{
+    "id": "1",
+    "brand": "Canyon",
+    "model": "Torque ON 7.0",
+    "type": "Full Suspension",
+    "price": 5199.00,
+    "image": "https://www.canyon.com/dw/image/v2/BCJW_PRD/on/demandware.static/-/Sites-canyon-master/default/dw7b3b3b3e/images/full/2019/mtb/torque/torque-on/torque-on-7-0/canyon-torque-on-7-0-action-01.jpg?sw=1000&sh=1000&sm=fit&sfrm=png"
+},
+{
+    "id": "2",
+    "brand": "Santa Cruz",
+    "model": "Bronson R",
+    "type":"Full Suspension",
+    "price": 4999.00,
+    "image": "https://www.santacruzbicycles.com/files/styles/hero/public/bronson-cc-2021-action-1.jpg?itok=8Q6J9Q8_"
+},
+{
+    "id": "3",
+    "brand": "Giant",
+    "model": "Trance X 29",
+    "type": "Full Suspension",
+    "price": 4500.00,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnUPewsFpC5nsnIVj4GsB-HPYEEjBoBuduiWhPDHnjig&s"
+},
+{
+    "id": "4",
+    "brand": "Connondale",
+    "model": "Moterra SL 1",
+    "type": "Full Suspension",
+    "price": 8750.00,
+    "image": "https://ep1.pinkbike.org/p5pb26224096/p5pb26224096.jpg"
+},
+{
+    "id": "5",
+    "brand": "Specialized",
+    "model":"Enduro Expert",
+    "type": "Full Suspension",
+    "price": 4999.99,
+    "image": "https://www.probikesupply.com/cdn/shop/products/93623-31_ENDURO-EXPERT-RSTDRED-REDWD_HERO.jpg?v=1678230163"
+},
+{
+    "id": "6",
+    "brand": "YT",
+    "model": "Capra Core 4",
+    "type": "Full Suspension",
+    "price": 4399.00,
+    "image": "https://cdn-prod.yt-industries.com/media/image/e8/e3/83/CAPRA-29-CF-Core4-BlackMagic_Frontlk9rGPKvxnr5I.png"
+},
+{
+    "id": "7",
+    "brand": "Trek",
+    "model": "Slash 9.9",
+    "type": "Full Suspension",
+    "price": 9599.99,
+    "image": "https://media.trekbikes.com/image/upload/w_1200/Slash99XTR_22_35220_A_Portrait"
+},
+{
+    "id": "8",
+    "brand": "GT",
+    "model": "Force Carbon Elite",
+    "type": "Full Suspension",
+    "price": 2850.00,
+    "image": "https://gtbicycles.com/cdn/shop/files/ForceCarbon_Elite_3Q_Red.jpg?v=1695207832"
+},
+{
+    "id": "9",
+    "brand": "Commencal",
+    "model": "Meta V5 Signature",
+    "type": "Full Suspension",
+    "price": 5400.00,
+    "image": "https://discover.commencal.com/wp-content/uploads/2023/07/23P1-META-V5-SIGNATURE-2-2.jpg"
+},
+{
+    "id": "10",
+    "brand": "Scott",
+    "model": "Ransom 920",
+    "type": "Full Suspension",
+    "price": 5999.00,
+    "image": "https://enduro-mtb.com/wp-content/uploads/2019/07/Scott-Ransom-920-Test-Review-Enduro-web-0088.jpg"
+},
+{
+    "id": "11",
+    "brand": "Banshee",
+    "model": "Rune V3.2",
+    "type": "Full Suspension",
+    "price": 2599.99,
+    "image": "https://images.squarespace-cdn.com/content/v1/5c93c0f77eb88c3880697b8b/1680885683750-PP01H8RCEZBPU9PYHWLD/Rune+3_4+Raw.jpg"
+},
+{
+    "id": "12",
+    "brand": "Pivot",
+    "model": "Firebird 29",
+    "type": "Full Suspension",
+    "price": 5699.99,
+    "image": "https://enduro-mtb.com/wp-content/uploads/2018/06/Pivot-Firebird-29-001-1.jpg"
+},
+{
+    "id": "13",
+    "brand": "Diamondback",
+    "model": "Release 5C",
+    "type": "Full Suspension",
+    "price": 5850.00,
+    "image": "https://ep1.pinkbike.org/p4pb15215853/p4pb15215853.jpg"
+},
+{
+    "id": "14",
+    "brand": "Guerilla",
+    "model": "Gnarvana",
+    "type": "Full Suspension",
+    "price": 7195.00,
+    "image": "https://enduro-mtb.com/wp-content/uploads/2020/04/gg-gnarvana-featured-001.jpg"
+},
+{
+    "id": "15",
+    "brand": "Kona",
+    "model": "Process X",
+    "type": "Full Suspension",
+    "price": 4499.00,
+    "image": "https://ep1.pinkbike.org/p6pb19683290/p6pb19683290.jpg"
+},
+{
+    "id": "16",
+    "brand": "Ibis",
+    "model": "HD6",
+    "type": "Full Suspension",
+    "price": 3899.99,
+    "image": "https://otesports.com/wp-content/uploads/2023/07/PJ_D7A9494_1200-OTE-1024x732.jpg"
+},
+{
+    "id": "17",
+    "brand": "Transition",
+    "model": "Spire",
+    "type": "Full Suspension",
+    "price": 3799.99,
+    "image": "https://www.mtb-mag.com/wp-content/uploads/2022/01/IMC_0762.jpg"
+},
+{
+    "id": "18",
+    "brand": "Norco",
+    "model": "Range C2",
+    "type": "Full Suspension",
+    "price": 7359.00,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOB4C7i3Z0-lHRoXgdZHaqiHdUqsQfNYydegKFcHlZCw&s"
+},
+{
+    "id": "19",
+    "brand": "Evil Bikes",
+    "model": "Insurgent LS",
+    "type": "Full Suspension",
+    "price": 5599.00,
+    "image": "https://cykelhouse.com/cdn/shop/files/evil-insurgent-ls-bike.webp?v=1670327762"
+},
+{
+    "id": "20",
+    "brand": "Forbidden Bikes",
+    "model": "Dreadnought V2",
+    "type": "Full Suspension",
+    "price": 8700.00,
+    "image": "https://nsmb.com/media/images/DSCF9625.2e16d0ba.fill-1920x1200.jpg"
+}
+]

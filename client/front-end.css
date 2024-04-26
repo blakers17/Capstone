@@ -1,0 +1,29 @@
+
+.header-container {
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+    border-radius: 10px;
+}
+.header-container h1 {
+    color: white;
+    font-size: 3em;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    margin: 5px 0;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
