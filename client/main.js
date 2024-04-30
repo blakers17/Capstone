@@ -1,27 +1,71 @@
-const bikeContainer = document.querySelector('.bike-container');
+const mountainBikeContainer = document.querySelector('#mountain-bike-container');
+const trailsContainer = document.querySelector('#trails-container');
+const dealerContainer = document.querySelector('#dealer-container');
 
 const baseURL = '/api/bikeProducts';
 
-onst mountainBikesLink = document.querySelector('.navbar a[href="Mountain Bike"]');
 
-// Add an event listener for the click event
-mountainBikesLink.addEventListener('click', function(event) {
-    // Prevent the default link click behavior
-    event.preventDefault();
+const getBikesButton = document.querySelector('#get-bikes');
 
-    // Fetch the data from the server
-    fetch('/api/bikeProducts')
+// Add a click event listener to the "Get Bikes" button
+getBikesButton.addEventListener('click', function() {
+    // Fetch the bike data from db.json
+    fetch('../db.json')
         .then(response => response.json())
         .then(data => {
-            // Clear the bike-container
-            const bikeContainer = document.getElementById('bike-container');
-            bikeContainer.innerHTML = '';
+            const bikes = data.bikes;
+            const dealers = data.dealers;
+            const trails = data.trails;
+            // Create a select element
+            const select = document.createElement('select');
 
-            // Loop through the data and add each bike to the bike-container
-            data.forEach(bike => {
-                const bikeElement = document.createElement('div');
-                bikeElement.textContent = bike.name; // Replace 'name' with the actual property name in your JSON data
-                bikeContainer.appendChild(bikeElement);
+            // Populate the select element with the bike data
+            data.bikes.forEach(bike => {
+                const option = document.createElement('option');
+                option.value = bike.id;
+                option.textContent = bike.name;
+                select.appendChild(option);
             });
-        });
+
+            // Append the select element to the bikes container
+            const bikesContainer = document.querySelector('#bikes-container');
+            bikesContainer.appendChild(select);
+        })
+        .catch(error => console.error('Error:', error));
 });
+
+const bikesCallBack = ({data: bikeProducts}) => displayBikes(bikeProducts);
+const errCallBack = (err) => console.log(err);
+
+const getAllBikes = () => axios.get(baseURL).then(bikesCallBack).catch(errCallBack);
+const createBike = (body) => axios.post(baseURL, body).then(bikesCallBack).catch(errCallBack);
+const updateBike = (id, type) => axios.put(`${baseURL}/${id}`, type).then(bikesCallBack).catch(errCallBack);
+const deleteBike = (id) => axios.delete(`${baseURL}/${id}`).then(bikesCallBack).catch(errCallBack);
+
+function submithandler(event) {
+    event.preventDefault();
+
+    let brand = document.querySelector('#brand');
+    let model = document.querySelector('#model');
+    let type = document.querySelector('#type');
+    let price = document.querySelector('#price');
+    let image = document.querySelector('#image');
+
+    let bodyobj = {
+        brand: brand.value,
+        model: model.value,
+        type: type.value,
+        price: price.value,
+        image: image.value
+    };
+
+    createBike(bodyobj);
+
+    brand.value = '';
+    model.value = '';
+    type.value = '';
+    price.value = '';
+    image.value = '';
+}
+
+getAllBikes()

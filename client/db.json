@@ -1,4 +1,6 @@
-[
+{
+
+   "bikes": [
 {
     "id": "1",
     "brand": "Canyon",
@@ -159,4 +161,192 @@
     "price": 8700.00,
     "image": "https://nsmb.com/media/images/DSCF9625.2e16d0ba.fill-1920x1200.jpg"
 }
+],
+"dealers":
+ [
+    {
+        "id ": "1",
+        "Name": "Canyon",
+        "Site": "https://www.canyon.com/en-us/"
+    },
+    {
+        "id ": "2",
+        "Name": "Santa Cruz",
+        "Site": "https://www.santacruzbicycles.com/en-US"
+    },
+    {
+        "id ": "3",
+        "Name": "Giant",
+        "Site": "https://www.giant-bicycles.com/us"
+    },
+    {
+        "id ": "4",
+        "Name": "Connondale",
+        "Site": "https://www.cannondale.com/en-us"
+    },
+    {
+        "id ": "5",
+        "Name": "Specialized",
+        "Site": "https://www.specialized.com/us/en"
+    },
+    {
+        "id ": "6",
+        "Name": "YT",
+        "Site": "https://us.yt-industries.com/"
+    },
+    {
+        "id ": "7",
+        "Name": "Trek",
+        "Site": "https://www.trekbikes.com/us/en_US/"
+    },
+    {
+        "id ": "8",
+        "Name": "GT",
+        "Site": "https://www.gtbicycles.com/"
+    },
+    {
+        "id ": "9",
+        "Name": "Commencal",
+        "Site": "https://us.commencal.com/"
+    },
+    {
+        "id ": "10",
+        "Name": "Scott",
+        "Site": "https://www.scott-sports.com/us/en/"
+    },
+    {
+        "id ": "11",
+        "Name": "Banshee",
+        "Site": "https://www.bansheebikes.com/"
+    },
+    {
+        "id ": "12",
+        "Name": "Pivot",
+        "Site": "https://www.pivotcycles.com/en/"
+    },
+    {
+        "id ": "13",
+        "Name": "Diamondback",
+        "Site": "https://www.diamondback.com/"
+    },
+    {
+        "id ": "14",
+        "Name": "Guerilla",
+        "Site": "https://ridegg.com/"
+    },
+    {
+        "id ": "15",
+        "Name": "Kona",
+        "Site": "https://konaworld.com/"
+    },
+    {
+        "id ": "16",
+        "Name": "Ibis",
+        "Site": "https://www.ibiscycles.com/"
+    }
+
+],
+"trails": [
+    {
+        "id": "1",
+        "Name": "Wow trail",
+        "location": "Midway, Utah"
+    },
+    {
+        "id": "2",
+        "Name": "Porcupine Rim",
+        "Location": "Moab, Utah"
+    },
+    {
+        "id": "3",
+        "Name": "The Whole Enchilada",
+        "Location": "Moab, Utah"
+    },
+    {    
+        "id": "4",
+        "Name": "deer Valley Resort",
+        "Location": "Park City, Utah"
+    },
+    {
+        "id": "5",
+        "Name": "Wasatch Crest Trail",
+        "Location": "Salt Lake City, Utah"
+    },
+    {
+        "id": "6",
+        "Name": "Captain Ahab",
+        "Location": "Moab, Utah"
+    },
+    {
+        "id": "7",
+        "Name": "Slickrock Trail",
+        "Location": "Moab, Utah"
+    },
+    {
+        "id": "8",
+        "Name": "Flying Dog",
+        "Location": "Park City, Utah"
+    },
+    {
+        "id": "9",
+        "Name": "Mid Mountain Trail",
+        "Location": "Park City, Utah"
+    },
+    {
+        "id": "10",
+        "Name": "Barrel Roll",
+        "Location": "St. George, Utah"
+    },
+    {
+        "id": "11",
+        "Name": "Gooseberry Mesa",
+        "Location": "Hurricane, Utah"
+    },
+    {
+        "id": "12",
+        "Name": "Thunder Mountain",
+        "Location": "Bryce Canyon, Utah"
+    },
+    {
+        "id": "13",
+        "Name": "Navajo Rocks",
+        "Location": "Moab, Utah"
+    },
+    {
+        "id": "14",
+        "Name": "Jem Trail",
+        "Location": "Hurricane, Utah"
+    },
+    {
+        "id": "15",
+        "Name": "Zen Trail",
+        "Location": "St. George, Utah"
+    },
+    {
+        "id": "16",
+        "Name": "Guacamole Trail",
+        "Location": "St. George, Utah"
+    },
+    {
+        "id": "17",
+        "Name": "Rim Trail",
+        "Location": "St. George, Utah"
+    },
+    {
+        "id": "18",
+        "Name": "Bearclaw Poppy",
+        "Location": "St. George, Utah"
+    },
+    {
+        "id": "19",
+        "Name": "Little Creek Mesa",
+        "Location": "Hurricane, Utah"
+    },
+    {
+        "id": "20",
+        "Name": "Red Canyon",
+        "Location": "Bryce Canyon, Utah"
+    }
+
 ]
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="front-end.css">
+    
+    <title>World of Mountain Biking</title>
+</head>
+<body>
+            <div class="header-container">
+                <header>
+                    <h1 class="title">Mountain Bike Information</h1>
+                </header>
+            </div>
+            <form id="bike-form">
+                <div            id="mountain-bike-container"                           class="container">
+                </div>
+                    <div>
+                    <p>Add a bike into the archive</p>
+                    </div>
+                    <div>
+                    <input 
+                    type="text"
+                    id="brand"
+                    placeholder="Enter brand">
+                    </div>
+                    <div>
+                    <input
+                    type="text"
+                    id="model"
+                    placeholder="Enter model">
+                    </div>
+                    <div>
+                    <input 
+                    type="text"
+                    id="type"
+                    placeholder="Enter type">
+                    </div>
+                    <div>
+                    <input
+                    type="text"
+                    id="price"
+                    placeholder="Enter price">
+                    </div>
+                    <div>
+                    <input 
+                    type="text" 
+                    id="img"
+                    placeholder="Enter image URL">
+                    </div>
+                    <button submit="submit">Submit</button>
+
+                    <p>Pull all the bikes from the archive</p>
+                    <button id="get-bikes">Get Bikes</button>
+                  </div>
+            </form>
+            <section id="bikes-container" class="container">
+            <form id="dealer-form">
+                  <div id="dealer-container" class="container">
+                    <p>If you like any of the bikes above you can find them from these stores</p>
+                    <button id="get-dealers">Find Dealers</button>
+                  </div>
+            </form>
+            <section id="dealers-container" class="container">
+            <form id="trail-form">
+                  <div id="trails-container" class="container">
+                    <p>Its time to take your bike on an amazing trail</p>
+                    <button id="get-trails">Find a Trail</button>
+                  </div>
+            </form>
+            <section id="trails-container" class="container">
+        <script src="/main.js"></script>
+        
+</body>
+</html>
